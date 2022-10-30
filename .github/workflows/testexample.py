@@ -1,4 +1,4 @@
-def ,main():
+def main():
   print ("c'est un test")
   
 #sans cette ligne Github ne saura pas si le code est exécutable ou non
