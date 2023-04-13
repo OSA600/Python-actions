@@ -3,7 +3,7 @@ import os
 
 def main():
   print ("c'est un test")
-  token = os.environ.get("DOCKER_SECRET_TOKEN")
+  token = os.environ.get("DOCKER_SECRET_TOKN")
   if not token : 
     raise RuntimeError("accès non autorisé, cette application va se fermer maintenant")
   print ("bienvenue ")
